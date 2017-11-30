@@ -1,0 +1,45 @@
+{
+  "manifest_version": 2,
+  "name": "Open in Janitor",
+  "version": "0.1",
+  "icons": {
+    "16": "icon.svg",
+    "32": "icon.svg",
+    "48": "icon.svg",
+    "96": "icon.svg"
+  },
+  "description": "A WebExtension with buttons to open anything in Janitor (source files, crash dumps, branches, code reviews...)",
+  "permissions": [
+    "tabs",
+    "*://searchfox.org/*",
+    "*://github.com/*",
+    "*://*.mozilla.org/*",
+    "*://*.mozilla.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://searchfox.org/*"],
+      "js": ["button.js"]
+    },
+    {
+      "matches": ["*://github.com/*"],
+      "js": ["button.js"]
+    },
+    {
+      "matches": ["*://reviewboard.mozilla.org/*"],
+      "js": ["button.js"]
+    },
+    {
+      "matches": ["*://phabricator.services.mozilla.com/*"],
+      "js": ["button.js"]
+    },
+    {
+      "matches": ["*://crash-stats.mozilla.org/*"],
+      "js": ["button.js"]
+    },
+    {
+      "matches": ["*://treeherder.mozilla.org/*"],
+      "js": ["button.js"]
+    }
+  ]
+}
