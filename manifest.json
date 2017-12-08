@@ -34,7 +34,7 @@
       "js": ["phabricator-buttons.js"]
     },
     {
-      "matches": ["*://crash-stats.mozilla.org/*"],
+      "matches": ["*://crash-stats.mozilla.org/report/*"],
       "js": ["crashstats-buttons.js"]
     },
     {
