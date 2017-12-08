@@ -1,5 +1,8 @@
 # open-in-janitor
-A WebExtension with buttons to open anything in Janitor (source files, crash dumps, branches, code reviews...)
+
+[![Open in Janitor](https://img.shields.io/badge/open-in%20janitor-blue.svg)](https://janitor.technology/create/?repository=github.com/JanitorTechnology/open-in-janitor)
+
+A WebExtension to open anything in Janitor (repositories, source files, crash dumps, branches, code reviews...)
 
 TODO:
 - [ ] "Edit in Janitor" button on https://searchfox.org/ pages
