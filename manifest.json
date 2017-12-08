@@ -26,7 +26,7 @@
       "js": ["github-buttons.js"]
     },
     {
-      "matches": ["*://reviewboard.mozilla.org/*"],
+      "matches": ["*://reviewboard.mozilla.org/r/*"],
       "js": ["mozreview-buttons.js"]
     },
     {
