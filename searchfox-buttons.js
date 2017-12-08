@@ -5,7 +5,8 @@ if (breadcrumbs) {
 
   // Create 'edit in janitor' link.
   const a = document.createElement('a');
-  a.href = 'https://janitor.technology/create/?project=firefox-hg&openfiles=' + path;
+  a.href = 'https://janitor.technology/create/?project=firefox-hg' +
+    (path ? '&openfiles=' + path : '');
   a.target = '_blank';
   a.title = 'Open in Janitor';
 
@@ -19,7 +20,7 @@ if (breadcrumbs) {
   if (panel) {
     // This is a file, install button in the 'Navigation' panel.
     const h4 = document.createElement('h4');
-    h4.textContent = 'Third-party';
+    h4.textContent = 'Janitor';
     const ul = document.createElement('ul');
     const li = document.createElement('li');
     a.classList.add('icon');
