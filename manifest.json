@@ -18,7 +18,7 @@
   ],
   "content_scripts": [
     {
-      "matches": ["*://searchfox.org/*"],
+      "matches": ["*://searchfox.org/mozilla-central/source/*"],
       "js": ["searchfox-buttons.js"]
     },
     {
