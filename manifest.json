@@ -19,27 +19,27 @@
   "content_scripts": [
     {
       "matches": ["*://searchfox.org/*"],
-      "js": ["button.js"]
+      "js": ["searchfox-buttons.js"]
     },
     {
       "matches": ["*://github.com/*"],
-      "js": ["button.js"]
+      "js": ["github-buttons.js"]
     },
     {
       "matches": ["*://reviewboard.mozilla.org/*"],
-      "js": ["button.js"]
+      "js": ["mozreview-buttons.js"]
     },
     {
       "matches": ["*://phabricator.services.mozilla.com/*"],
-      "js": ["button.js"]
+      "js": ["phabricator-buttons.js"]
     },
     {
       "matches": ["*://crash-stats.mozilla.org/*"],
-      "js": ["button.js"]
+      "js": ["crashstats-buttons.js"]
     },
     {
       "matches": ["*://treeherder.mozilla.org/*"],
-      "js": ["button.js"]
+      "js": ["treeherder-buttons.js"]
     }
   ]
 }
